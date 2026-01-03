@@ -1,2 +1,0 @@
-[START] 학습 시작 | 저장 파일: checkpoints/best_model_ep50_bs128_lr0.0003.pth
-Epoch [1/50]:  31%|███       | 35/113 [00:20<00:33,  2.29it/s, loss=4.62]

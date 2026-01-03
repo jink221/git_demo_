@@ -1,7 +1,0 @@
-[START] 학습 시작 | 저장 파일: checkpoints/best_model_bs128_lr0.0003_ep50.pth
-Traceback (most recent call last):                         
-  File "/Users/daniel/team_project/train.py", line 165, in <module>
-    train()
-  File "/Users/daniel/team_project/train.py", line 111, in train
-    total_loss += loss.item()
-UnboundLocalError: local variable 'total_loss' referenced before assignment

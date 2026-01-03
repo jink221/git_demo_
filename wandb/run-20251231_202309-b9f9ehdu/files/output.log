@@ -1,2 +1,0 @@
-[START] 학습 시작 | 저장 파일: checkpoints/best_efficientnet_b0_bs128_lr0.0003.pth
-Epoch [1/50] Train:   8%|▊         | 9/113 [00:08<00:32,  3.16it/s, loss=7.66]

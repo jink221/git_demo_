@@ -1,0 +1,46 @@
+# --- 가상환경 및 라이브러리 (Virtual Environments) ---
+myenv/
+venv/
+env/
+.env
+bin/
+lib/
+share/
+include/
+# 시스템 라이브러리 파일들
+*.dylib
+*.so
+*.dll
+
+# --- 모델 체크포인트 및 가중치 (Model Weights) ---
+# 용량이 커서 GitHub 제한(100MB)에 걸리는 파일들입니다.
+checkpoints/
+*.pth
+*.pkl
+!vocab.pkl
+# 단, 단어 사전 파일(vocab.pkl)은 작으므로 올리고 싶다면 아래 주석을 해제하세요.
+# !vocab.pkl
+
+# --- 데이터셋 (Datasets) ---
+# 원본 이미지와 JSON 레이블은 용량이 크므로 제외하는 것이 일반적입니다.
+data/
+datasets/
+
+# --- Python 캐시 및 빌드 파일 (Python Cache) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- 실험 로그 (Logs & Visualization) ---
+# WandB 로그나 텐서보드 로그
+wandb/
+runs/
+logs/
+
+# --- OS 및 에디터 설정 (OS/Editor configs) ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
