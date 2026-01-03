@@ -1,0 +1,23 @@
+2025-12-31 17:06:17,636 INFO    MainThread:40494 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-31 17:06:17,636 INFO    MainThread:40494 [wandb_setup.py:_flush():80] Configure stats pid to 40494
+2025-12-31 17:06:17,636 INFO    MainThread:40494 [wandb_setup.py:_flush():80] Loading settings from /Users/daniel/.config/wandb/settings
+2025-12-31 17:06:17,636 INFO    MainThread:40494 [wandb_setup.py:_flush():80] Loading settings from /Users/daniel/team_project/wandb/settings
+2025-12-31 17:06:17,636 INFO    MainThread:40494 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-31 17:06:17,637 INFO    MainThread:40494 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /Users/daniel/team_project/wandb/run-20251231_170617-8dwk1qx4/logs/debug.log
+2025-12-31 17:06:17,637 INFO    MainThread:40494 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /Users/daniel/team_project/wandb/run-20251231_170617-8dwk1qx4/logs/debug-internal.log
+2025-12-31 17:06:17,637 INFO    MainThread:40494 [wandb_init.py:init():841] calling init triggers
+2025-12-31 17:06:17,637 INFO    MainThread:40494 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'vocab_path': 'vocab.pkl', 'train_img_dir': './data/images/train', 'train_json': './data/captions/train.json', 'val_img_dir': './data/images/val', 'val_json': './data/captions/val.json', 'nltk_data_dir': 'nltk_data', 'save_base_dir': './checkpoints', 'embed_size': 256, 'hidden_size': 512, 'num_layers': 1, 'optimizer_type': 'Adam', 'learning_rate': 0.0003, 'epochs': 50, 'batch_size': 128, 'num_workers': 4, 'shuffle': True, 'image_size': (224, 224), 'norm_mean': (0.485, 0.456, 0.406), 'norm_std': (0.229, 0.224, 0.225), '_wandb': {}}
+2025-12-31 17:06:17,637 INFO    MainThread:40494 [wandb_init.py:init():889] starting backend
+2025-12-31 17:06:17,909 INFO    MainThread:40494 [wandb_init.py:init():892] sending inform_init request
+2025-12-31 17:06:17,933 INFO    MainThread:40494 [wandb_init.py:init():900] backend started and connected
+2025-12-31 17:06:17,953 INFO    MainThread:40494 [wandb_init.py:init():970] updated telemetry
+2025-12-31 17:06:17,971 INFO    MainThread:40494 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-31 17:06:18,738 INFO    MainThread:40494 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-31 17:06:18,787 INFO    MainThread:40494 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-31 17:06:18,787 INFO    MainThread:40494 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-31 17:06:18,787 INFO    MainThread:40494 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-31 17:06:18,787 INFO    MainThread:40494 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-31 17:06:18,789 INFO    MainThread:40494 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-31 17:06:18,798 INFO    wandb-AsyncioManager-main:40494 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-31 17:06:18,798 INFO    wandb-AsyncioManager-main:40494 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

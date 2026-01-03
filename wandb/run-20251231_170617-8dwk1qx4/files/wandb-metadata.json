@@ -1,0 +1,17 @@
+{
+  "os": "macOS-26.2-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-12-31T08:06:17.631275Z",
+  "program": "/Users/daniel/team_project/train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "git": {
+    "remote": "https://github.com/jink221/git_demo_.git",
+    "commit": "fa6f7f57ce240e3b542796ceb623af28d5b69d43"
+  },
+  "email": "kjink9921@gmail.com",
+  "root": "/Users/daniel/team_project",
+  "host": "Jinkyuui-MacBookPro.local",
+  "executable": "/Users/daniel/team_project/myenv/bin/python",
+  "writerId": "0c67cjn38jrcsdu6y4c5zx2v3yn5e58r"
+}

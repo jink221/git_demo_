@@ -1,0 +1,7 @@
+[INFO] 모델 저장 경로: /Users/daniel/Test_2/checkpoints/ep50_bs128_lr0.0003
+[START] ep50_bs128_lr0.0003 학습을 시작합니다.
+Epoch [5/50]:  68%|██████▊   | 77/113 [00:39<00:15,  2.28it/s, loss=1.76] 
+Epoch [1/50] Avg Loss: 4.5529 | Accuracy: 32.34%
+Epoch [2/50] Avg Loss: 2.7350 | Accuracy: 47.93%
+Epoch [3/50] Avg Loss: 2.2667 | Accuracy: 54.13%
+Epoch [4/50] Avg Loss: 1.9669 | Accuracy: 59.47%

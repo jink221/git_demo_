@@ -1,0 +1,24 @@
+[START] 학습 시작 | 저장 파일: checkpoints/best_model_bs64_lr0.0003_ep50.pth
+Epoch [12/50]: 100%|██████████| 225/225 [00:54<00:00,  4.54it/s, loss=0.87] 
+Epoch [1/50] Avg Loss: 3.7277 | Accuracy: 41.41%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [2/50] Avg Loss: 2.1442 | Accuracy: 59.69%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [3/50] Avg Loss: 1.6886 | Accuracy: 66.98%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [4/50] Avg Loss: 1.4101 | Accuracy: 70.88%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [5/50] Avg Loss: 1.2288 | Accuracy: 73.50%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [6/50] Avg Loss: 1.0989 | Accuracy: 75.42%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [7/50] Avg Loss: 1.0041 | Accuracy: 76.77%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [8/50] Avg Loss: 0.9315 | Accuracy: 77.74%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [9/50] Avg Loss: 0.8700 | Accuracy: 78.65%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [10/50] Avg Loss: 0.8180 | Accuracy: 79.51%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth
+Epoch [11/50] Avg Loss: 0.7720 | Accuracy: 80.28%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs64_lr0.0003_ep50.pth

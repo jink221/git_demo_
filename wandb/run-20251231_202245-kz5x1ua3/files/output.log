@@ -1,0 +1,2 @@
+[START] 학습 시작 | 저장 파일: checkpoints/best_resnet50_bs128_lr0.0003.pth
+Epoch [1/50] Train:   2%|▏         | 2/113 [00:05<04:29,  2.42s/it, loss=7.95]

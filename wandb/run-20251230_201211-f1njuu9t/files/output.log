@@ -1,0 +1,4 @@
+[START] 학습 시작 | 저장 파일: checkpoints/best_model_ep50_bs128_lr0.0003.pth
+Epoch [2/50]:  16%|█▌        | 18/113 [00:13<00:41,  2.28it/s, loss=2.93] 
+Epoch [1/50] Avg Loss: 4.5005 | Accuracy: 34.51%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_ep50_bs128_lr0.0003.pth

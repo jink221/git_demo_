@@ -1,0 +1,4 @@
+/Users/daniel/team_project/myenv/lib/python3.9/site-packages/torch/amp/grad_scaler.py:136: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+[START] 학습 시작 | 저장 파일: checkpoints/best_resnet50_bs128_lr0.0003.pth
+Epoch [1/50] Train:  95%|█████████▍| 107/113 [00:59<00:02,  2.01it/s, loss=3.2] 

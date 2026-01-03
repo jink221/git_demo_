@@ -1,0 +1,104 @@
+[START] 학습 시작 | 저장 파일: checkpoints/best_model_bs128_lr0.0003_ep50.pth
+                                                                            
+Epoch [1/50] Avg Loss: 4.5377 | Accuracy: 33.92%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [2/50] Avg Loss: 2.6918 | Accuracy: 52.22%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [3/50] Avg Loss: 2.1409 | Accuracy: 59.59%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [4/50] Avg Loss: 1.8169 | Accuracy: 64.99%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [5/50] Avg Loss: 1.5816 | Accuracy: 68.50%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [6/50] Avg Loss: 1.4101 | Accuracy: 70.84%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [7/50] Avg Loss: 1.2810 | Accuracy: 72.54%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [8/50] Avg Loss: 1.1771 | Accuracy: 74.22%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [9/50] Avg Loss: 1.0931 | Accuracy: 75.54%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [10/50] Avg Loss: 1.0230 | Accuracy: 76.61%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [11/50] Avg Loss: 0.9646 | Accuracy: 77.44%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [12/50] Avg Loss: 0.9138 | Accuracy: 78.14%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [13/50] Avg Loss: 0.8701 | Accuracy: 78.84%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [14/50] Avg Loss: 0.8311 | Accuracy: 79.48%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [15/50] Avg Loss: 0.7943 | Accuracy: 80.15%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [16/50] Avg Loss: 0.7615 | Accuracy: 80.76%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [17/50] Avg Loss: 0.7312 | Accuracy: 81.23%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [18/50] Avg Loss: 0.7014 | Accuracy: 81.88%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [19/50] Avg Loss: 0.6752 | Accuracy: 82.41%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [20/50] Avg Loss: 0.6494 | Accuracy: 82.96%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [21/50] Avg Loss: 0.6244 | Accuracy: 83.49%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [22/50] Avg Loss: 0.6014 | Accuracy: 84.05%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [23/50] Avg Loss: 0.5783 | Accuracy: 84.53%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [24/50] Avg Loss: 0.5571 | Accuracy: 85.06%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [25/50] Avg Loss: 0.5369 | Accuracy: 85.51%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [26/50] Avg Loss: 0.5171 | Accuracy: 86.05%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [27/50] Avg Loss: 0.4988 | Accuracy: 86.47%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [28/50] Avg Loss: 0.4800 | Accuracy: 86.99%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [29/50] Avg Loss: 0.4616 | Accuracy: 87.46%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [30/50] Avg Loss: 0.4457 | Accuracy: 87.88%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [31/50] Avg Loss: 0.4297 | Accuracy: 88.35%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [32/50] Avg Loss: 0.4135 | Accuracy: 88.83%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [33/50] Avg Loss: 0.3976 | Accuracy: 89.23%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [34/50] Avg Loss: 0.3821 | Accuracy: 89.71%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [35/50] Avg Loss: 0.3682 | Accuracy: 90.07%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [36/50] Avg Loss: 0.3540 | Accuracy: 90.48%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [37/50] Avg Loss: 0.3406 | Accuracy: 90.88%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [38/50] Avg Loss: 0.3266 | Accuracy: 91.33%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [39/50] Avg Loss: 0.3142 | Accuracy: 91.66%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [40/50] Avg Loss: 0.3013 | Accuracy: 92.11%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [41/50] Avg Loss: 0.2894 | Accuracy: 92.45%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [42/50] Avg Loss: 0.2777 | Accuracy: 92.77%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [43/50] Avg Loss: 0.2672 | Accuracy: 93.16%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [44/50] Avg Loss: 0.2581 | Accuracy: 93.37%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [45/50] Avg Loss: 0.2479 | Accuracy: 93.69%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [46/50] Avg Loss: 0.2358 | Accuracy: 94.08%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [47/50] Avg Loss: 0.2296 | Accuracy: 94.22%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [48/50] Avg Loss: 0.2183 | Accuracy: 94.54%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [49/50] Avg Loss: 0.2097 | Accuracy: 94.83%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+Epoch [50/50] Avg Loss: 0.2010 | Accuracy: 95.11%
+  >> ⭐ Best Loss 갱신! 모델 저장됨: best_model_bs128_lr0.0003_ep50.pth
+
+[DONE] 모든 학습이 완료되었습니다. 최적 모델: checkpoints/best_model_bs128_lr0.0003_ep50.pth

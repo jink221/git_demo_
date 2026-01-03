@@ -1,0 +1,102 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            qi61uxy6dn96ptoy1gm0kafmqcdl620d:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 16
+                    memoryGb: 24
+                    name: Apple M4 Pro
+                    pcpuCores: 8
+                    ramTotalBytes: "25769803776"
+                    swapTotalBytes: "9663676416"
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "222024704000"
+                email: kjink9921@gmail.com
+                executable: /Users/daniel/team_project/myenv/bin/python
+                git:
+                    commit: fa6f7f57ce240e3b542796ceb623af28d5b69d43
+                    remote: https://github.com/jink221/git_demo_.git
+                host: Jinkyuui-MacBookPro.local
+                memory:
+                    total: "25769803776"
+                os: macOS-26.2-arm64-arm-64bit
+                program: /Users/daniel/team_project/train.py
+                python: CPython 3.9.6
+                root: /Users/daniel/team_project
+                startedAt: "2026-01-01T07:38:57.352742Z"
+                writerId: qi61uxy6dn96ptoy1gm0kafmqcdl620d
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.9.6
+            "5": 0.23.1
+            "8":
+                - 2
+            "12": 0.23.1
+            "13": darwin-arm64
+batch_size:
+    value: 128
+decoder_type:
+    value: lstm
+embed_size:
+    value: 300
+encoder_type:
+    value: resnet50
+epochs:
+    value: 30
+hidden_size:
+    value: 512
+image_size:
+    value:
+        - 224
+        - 224
+learning_rate:
+    value: 0.0003
+norm_mean:
+    value:
+        - 0.485
+        - 0.456
+        - 0.406
+norm_std:
+    value:
+        - 0.229
+        - 0.224
+        - 0.225
+num_layers:
+    value: 1
+num_workers:
+    value: 4
+optimizer_type:
+    value: Adam
+save_base_dir:
+    value: ./checkpoints
+shuffle:
+    value: true
+train_img_dir:
+    value: ./data/images/train
+train_json:
+    value: ./data/captions/train.json
+val_img_dir:
+    value: ./data/images/val
+val_json:
+    value: ./data/captions/val.json
+vocab_path:
+    value: vocab.pkl

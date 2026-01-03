@@ -1,0 +1,113 @@
+Epoch 1 Train: 100%|██████████| 57/57 [01:46<00:00,  1.87s/it]
+Epoch 1 Val: 100%|██████████| 8/8 [00:56<00:00,  7.07s/it]
+Epoch 1 | Loss: 4.4347 | Acc: 31.72%
+  >> Best Model Saved!
+Epoch 2 Train: 100%|██████████| 57/57 [01:47<00:00,  1.88s/it]
+Epoch 2 Val: 100%|██████████| 8/8 [00:56<00:00,  7.06s/it]
+Epoch 2 | Loss: 3.7779 | Acc: 43.18%
+  >> Best Model Saved!
+Epoch 3 Train: 100%|██████████| 57/57 [01:47<00:00,  1.89s/it]
+Epoch 3 Val: 100%|██████████| 8/8 [00:56<00:00,  7.07s/it]
+Epoch 3 | Loss: 3.3192 | Acc: 49.01%
+  >> Best Model Saved!
+Epoch 4 Train: 100%|██████████| 57/57 [01:46<00:00,  1.87s/it]
+Epoch 4 Val: 100%|██████████| 8/8 [00:56<00:00,  7.07s/it]
+Epoch 4 | Loss: 2.9510 | Acc: 52.55%
+  >> Best Model Saved!
+Epoch 5 Train: 100%|██████████| 57/57 [01:47<00:00,  1.89s/it]
+Epoch 5 Val: 100%|██████████| 8/8 [00:56<00:00,  7.12s/it]
+Epoch 5 | Loss: 2.6886 | Acc: 56.77%
+  >> Best Model Saved!
+Epoch 6 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 6 Val: 100%|██████████| 8/8 [00:56<00:00,  7.10s/it]
+Epoch 6 | Loss: 2.4964 | Acc: 59.36%
+  >> Best Model Saved!
+Epoch 7 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 7 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 7 | Loss: 2.3522 | Acc: 60.97%
+  >> Best Model Saved!
+Epoch 8 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 8 Val: 100%|██████████| 8/8 [00:57<00:00,  7.22s/it]
+Epoch 8 | Loss: 2.2505 | Acc: 62.21%
+  >> Best Model Saved!
+Epoch 9 Train: 100%|██████████| 57/57 [01:49<00:00,  1.92s/it]
+Epoch 9 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 9 | Loss: 2.1817 | Acc: 63.02%
+  >> Best Model Saved!
+Epoch 10 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 10 Val: 100%|██████████| 8/8 [00:56<00:00,  7.10s/it]
+Epoch 10 | Loss: 2.1298 | Acc: 63.52%
+  >> Best Model Saved!
+Epoch 11 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 11 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 11 | Loss: 2.0686 | Acc: 64.08%
+  >> Best Model Saved!
+Epoch 12 Train: 100%|██████████| 57/57 [01:47<00:00,  1.89s/it]
+Epoch 12 Val: 100%|██████████| 8/8 [00:56<00:00,  7.12s/it]
+Epoch 12 | Loss: 2.0329 | Acc: 64.56%
+  >> Best Model Saved!
+Epoch 13 Train: 100%|██████████| 57/57 [01:49<00:00,  1.92s/it]
+Epoch 13 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 13 | Loss: 1.9970 | Acc: 64.84%
+  >> Best Model Saved!
+Epoch 14 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 14 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 14 | Loss: 1.9857 | Acc: 65.09%
+  >> Best Model Saved!
+Epoch 15 Train: 100%|██████████| 57/57 [01:49<00:00,  1.92s/it]
+Epoch 15 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 15 | Loss: 1.9600 | Acc: 65.25%
+  >> Best Model Saved!
+Epoch 16 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 16 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 16 | Loss: 1.9553 | Acc: 65.18%
+  >> Best Model Saved!
+Epoch 17 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 17 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 17 | Loss: 1.9202 | Acc: 65.37%
+  >> Best Model Saved!
+Epoch 18 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 18 Val: 100%|██████████| 8/8 [00:57<00:00,  7.17s/it]
+Epoch 18 | Loss: 1.9097 | Acc: 65.94%
+  >> Best Model Saved!
+Epoch 19 Train: 100%|██████████| 57/57 [01:49<00:00,  1.92s/it]
+Epoch 19 Val: 100%|██████████| 8/8 [00:56<00:00,  7.09s/it]
+Epoch 19 | Loss: 1.9119 | Acc: 66.07%
+Epoch 20 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 20 Val: 100%|██████████| 8/8 [00:57<00:00,  7.16s/it]
+Epoch 20 | Loss: 1.9011 | Acc: 65.99%
+  >> Best Model Saved!
+Epoch 21 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 21 Val: 100%|██████████| 8/8 [00:56<00:00,  7.07s/it]
+Epoch 21 | Loss: 1.8841 | Acc: 66.33%
+  >> Best Model Saved!
+Epoch 22 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 22 Val: 100%|██████████| 8/8 [00:56<00:00,  7.08s/it]
+Epoch 22 | Loss: 1.8692 | Acc: 66.44%
+  >> Best Model Saved!
+Epoch 23 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 23 Val: 100%|██████████| 8/8 [00:57<00:00,  7.14s/it]
+Epoch 23 | Loss: 1.8681 | Acc: 66.57%
+  >> Best Model Saved!
+Epoch 24 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 24 Val: 100%|██████████| 8/8 [00:56<00:00,  7.08s/it]
+Epoch 24 | Loss: 1.8913 | Acc: 66.57%
+Epoch 25 Train: 100%|██████████| 57/57 [01:49<00:00,  1.93s/it]
+Epoch 25 Val: 100%|██████████| 8/8 [00:57<00:00,  7.22s/it]
+Epoch 25 | Loss: 1.8660 | Acc: 66.82%
+  >> Best Model Saved!
+Epoch 26 Train: 100%|██████████| 57/57 [01:49<00:00,  1.91s/it]
+Epoch 26 Val: 100%|██████████| 8/8 [00:56<00:00,  7.07s/it]
+Epoch 26 | Loss: 1.8809 | Acc: 66.60%
+Epoch 27 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 27 Val: 100%|██████████| 8/8 [00:56<00:00,  7.12s/it]
+Epoch 27 | Loss: 1.8681 | Acc: 66.86%
+Epoch 28 Train: 100%|██████████| 57/57 [01:48<00:00,  1.91s/it]
+Epoch 28 Val: 100%|██████████| 8/8 [00:57<00:00,  7.14s/it]
+Epoch 28 | Loss: 1.8745 | Acc: 66.94%
+Epoch 29 Train: 100%|██████████| 57/57 [01:48<00:00,  1.90s/it]
+Epoch 29 Val: 100%|██████████| 8/8 [00:56<00:00,  7.08s/it]
+Epoch 29 | Loss: 1.8832 | Acc: 66.97%
+Epoch 30 Train: 100%|██████████| 57/57 [01:49<00:00,  1.91s/it]
+Epoch 30 Val: 100%|██████████| 8/8 [00:56<00:00,  7.08s/it]
+Epoch 30 | Loss: 1.8762 | Acc: 66.96%

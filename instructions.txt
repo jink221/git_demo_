@@ -1,0 +1,8 @@
+<실행 순서>
+1. generate_cap_blip.py
+2. analyze_caption.py
+3. vocab.py -> vocab.pkl 생성
+4. data_loader.py
+5. model.py
+6. train.py
+7. inference.py
