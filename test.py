@@ -16,12 +16,11 @@ processor = BlipProcessor.from_pretrained(MODEL_PATH)
 model = BlipForConditionalGeneration.from_pretrained(MODEL_PATH).to(device)
 model.eval()
 
-# 차단할 단어 (환각 현상이 자주 발생하는 단어들 추가)
-# 'street', 'plan', 'area', 'benoa' 등을 추가하여 엉뚱한 배경 설명을 막습니다.
+# 환각 억제 단어 리스트
 bad_words = [
     "featuring", "scene", "features", "distinctive", "distinct", 
     "thebenoa", "benoa", "street", "plan", "area", "space", "sizes",
-    "indoors", "outdoor", "indoor", "captured", "angle", "measurements" # 환각 단어 추가
+    "indoors", "outdoor", "indoor", "captured", "angle", "measurements"
 ]
 bad_words_ids = [processor.tokenizer.encode(w, add_special_tokens=False) for w in bad_words]
 
@@ -38,8 +37,8 @@ for class_dir in TEST_IMG_DIR.iterdir():
 # 테스트용 샘플 (20장)
 samples = random.sample(all_test_images, min(20, len(all_test_images)))
 
-print(f"\n🧪 [Temp 0.9 + 환각 억제] 테스트 시작")
-print("-" * 70)
+print(f"\n🧪 [자연어 생성 모드] 테스트 시작 (Prompt-Free)")
+print("-" * 75)
 
 # ==========================================
 # 2. 추론 실행
@@ -47,33 +46,32 @@ print("-" * 70)
 for i, (img_path, true_label) in enumerate(samples):
     try:
         image = Image.open(img_path).convert("RGB")
-        inputs = processor(images=image, return_tensors="pt").to(device)
+        
+        # [핵심 수정] text 인자를 제거하여 모델이 스스로 문장을 시작하게 함
+        prompt="a"
+        inputs = processor(images=image, text=prompt, return_tensors="pt").to(device)
         
         with torch.no_grad():
             out = model.generate(
                 **inputs, 
-                max_length=55,
-                min_length=20,           # 너무 길어서 헛소리하지 않게 약간 줄임
-                repetition_penalty=2.5,  # 반복 억제 더 강화
+                max_length=50,
+                min_length=15,           # 문장이 너무 짧아지지 않게 유지
+                repetition_penalty=2.0,  # 반복 억제
                 bad_words_ids=bad_words_ids,
                 do_sample=True,
                 top_k=50,
-                top_p=0.7,
-                temperature=0.9          # 0.9
+                top_p=0.9,
+                temperature=0.8          # 팀원들의 피드백을 반영해 0.8로 안정화
             )
             caption = processor.decode(out[0], skip_special_tokens=True)
             
-            # --- 후처리 로직 ---
-            caption = caption.replace(" - ", " ")
+            # --- 후처리 로직 (중복 제거 및 문장 마감) ---
             words = caption.split()
             unique_words = []
             for w in words:
-                # 단어 길이가 2자 이하이면서 기호가 섞인 이상한 단어(itsish 등) 필터링 시도
-                if len(w) > 2 or w.lower() in ['a', 'an', 'is', 'in', 'on', 'at']:
-                    if not unique_words or w.lower() != unique_words[-1].lower():
-                        unique_words.append(w)
+                if not unique_words or w.lower() != unique_words[-1].lower():
+                    unique_words.append(w)
             
-            # 문장 끝이 어색한 단어로 끝나면 과감히 삭제
             stop_words = ['in', 'the', 'at', 'with', 'and', 'of', 'showing', 'its', 'from', 'to', 'for', 'by']
             while unique_words and unique_words[-1].lower() in stop_words:
                 unique_words.pop()
@@ -81,14 +79,14 @@ for i, (img_path, true_label) in enumerate(samples):
             final_caption = " ".join(unique_words)
             if not final_caption.endswith('.'):
                 final_caption += "."
-            # ------------------
+            # ------------------------------------------
 
         print(f"[{i+1}] 파일명: {img_path.name}")
         print(f"    ✅ 실제 정답: {true_label}")
         print(f"    🤖 모델 답변: {final_caption}")
-        print("-" * 70)
+        print("-" * 75)
         
     except Exception as e:
         print(f"Error: {e}")
 
-print("\n✨ 0.9 버전 결과가 1.0보다 정확한가요? (특히 배경 설명 부분)")
+print("\n✨ 이제 'a photo of' 없이 모델이 직접 생성한 문장이 출력됩니다.")
