@@ -9,9 +9,9 @@ import pandas as pd
 # 1. 경로 설정
 # ==========================================
 BASE_DIR = Path(r"D:/아카이브.ver2").resolve()
-MODEL_PATH = BASE_DIR / "checkpoints/epoch7_final_checkpoints/final_step_35000"
+MODEL_PATH = BASE_DIR / "checkpoints/blip_finetuned_epoch9_final"
 TEST_IMG_DIR = BASE_DIR / "test"
-REPORT_SAVE_PATH = BASE_DIR / "evaluation_report_epoch7.csv"
+REPORT_SAVE_PATH = BASE_DIR / "evaluation_report_epoch9.csv"
 
 # ==========================================
 # 2. 장치 및 모델 로드
@@ -39,8 +39,7 @@ def run_evaluation():
             image = Image.open(img_path).convert("RGB")
             
             # [수정포인트] 모델이 입을 열게 만드는 프롬프트 유도
-            prompt = "a photo of a"
-            inputs = processor(images=image, text=prompt, return_tensors="pt").to(device)
+            inputs = processor(images=image, return_tensors="pt").to(device)
             
             with torch.no_grad():
                 outputs = model.generate(
@@ -48,8 +47,8 @@ def run_evaluation():
                     max_length=65,           # 캡션 최대 길이
                     min_length=20,           # [중요] 상세 묘사를 위해 최소 길이 강제
                     do_sample=True,          # 창의적인 묘사를 위해 샘플링 허용
-                    top_p=0.92,              # 상위 확률 단어 위주 선택
-                    repetition_penalty=2.0,  # "a photo of a photo of..." 반복 방지
+                    top_p=0.9,              # 상위 확률 단어 위주 선택
+                    repetition_penalty=1.3,  # "a photo of a photo of..." 반복 방지
                     temperature=0.8,         # 적절한 다양성 부여
                     num_beams=1              # do_sample=True일 때는 1이 속도가 빠릅니다
                 )
