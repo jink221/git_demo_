@@ -8,7 +8,7 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 # 1. 설정 및 모델 로드
 # ==========================================
 BASE_DIR = Path(r"D:/아카이브.ver2").resolve()
-MODEL_PATH = BASE_DIR / "checkpoints/blip_finetuned_epoch10"
+MODEL_PATH = BASE_DIR / "checkpoints/blip_finetuned_epoch11"
 TEST_IMG_DIR = BASE_DIR / "test" 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
@@ -52,7 +52,7 @@ for i, (img_path, true_label) in enumerate(samples):
                 do_sample=True,
                 top_k=40, 
                 top_p=0.9, 
-                temperature=0.6,         # 창의성보다 정확도 위주
+                temperature=0.7,         # 창의성보다 정확도 위주
                 no_repeat_ngram_size=3
             )
             
@@ -66,7 +66,7 @@ for i, (img_path, true_label) in enumerate(samples):
             # 모델이 헛소리를 시작할 때 주로 쓰는 패턴들입니다.
             cut_patterns = [
                 'a photo', 'an image', 'the photo', 'a high', 'this is', 
-                'with a a', 'of a a', 'showing a a', 'in a a'
+                'with a a', 'of a a', 'showing a a', 'in a a', 'and a', 'and the'
             ]
             
             # 전체 문장을 소문자로 변환하여 패턴 검색

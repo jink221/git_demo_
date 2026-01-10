@@ -9,9 +9,9 @@ import pandas as pd
 # 1. 설정 (경로는 질문자님이 다시 맞추시면 됩니다)
 # ==========================================
 BASE_DIR = Path(r"D:/아카이브.ver2").resolve()
-MODEL_PATH = BASE_DIR / "checkpoints/blip_finetuned_epoch10" # 경로 확인!
+MODEL_PATH = BASE_DIR / "checkpoints/blip_finetuned_epoch11" # 경로 확인!
 TEST_IMG_DIR = BASE_DIR / "test"
-REPORT_SAVE_PATH = BASE_DIR / "evaluation_report_epoch10.csv"
+REPORT_SAVE_PATH = BASE_DIR / "evaluation_report_epoch11.csv"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 processor = BlipProcessor.from_pretrained(MODEL_PATH)
@@ -43,7 +43,7 @@ def run_evaluation():
                     do_sample=True,
                     top_p=0.9,
                     repetition_penalty=1.4,  # 반복/나열 방지 강화
-                    temperature=0.6,         # GPT 문장의 정확도를 위해 0.6으로 하향
+                    temperature=0.7,         # GPT 문장의 정확도를 위해 0.6으로 하향
                     no_repeat_ngram_size=3
                 )
                 caption = processor.decode(outputs[0], skip_special_tokens=True).lower()
